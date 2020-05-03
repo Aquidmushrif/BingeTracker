@@ -1,0 +1,78 @@
+.sampleTitle {
+    font-family: fantasy;
+    font-size: 25pt;
+    font-style: oblique;
+    color: tomato;
+    background-color: yellow;
+}
+
+a {
+    font-family: monospace;
+    font-size: 20pt;
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+table,
+td,
+th {
+    border-collapse: separate;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: cursive;
+    font-size: 12pt;
+    background: url("images/tablebg.jpg");
+    color: red;
+}
+
+body {
+    background: url("images/background.jpg");
+    background-size: cover;
+}
+
+#topArea {
+    height: 400px;
+    background: url(images/witcher.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#topArea:hover {
+    background: url(images/witcher2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#footArea {
+    height: 40px;
+    background-color: #cccccc;
+    padding: 5px;
+    font-family: cursive;
+}
+
+#sideArea {
+    width: 300px;
+    float: left;
+    min-height: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+#textArea {
+    min-height: 440px;
+    width: 940px;
+    float: left;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.clear {
+    clear: both;
+}
